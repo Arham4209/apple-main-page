@@ -1,0 +1,223 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #e9d8a6;
+}
+.list1,.list2{
+    display: flex;
+    margin: 17px;
+}
+.list1 li , .list2 li{
+    padding: 10px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container{
+    text-align: center;
+    display: flex;
+}
+.container img{
+    margin-top: 18px;
+    max-width: 130px;
+    max-height: 50px;
+}
+.container p{
+    font-size:20px;
+    font-weight: bold;
+    margin-top: 28px;
+}
+.side{
+    background-color: #ca6702;
+}
+.side img{
+    display: block;
+    max-height: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+.ourMission{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:lightgray;
+    padding: 10px 0; 
+}
+.ourMission h1{
+    margin: 20px;
+}
+.our{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.our img{
+    max-width: 200px;
+}
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    padding-bottom: 20px;
+}
+section ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+section li{
+    list-style: none;
+}
+section h2{
+    padding-top: 20px;
+    font-size: 2.5rem;
+}
+figure{
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+    max-height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 5px;
+}
+figure img{
+    margin-bottom: -4px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 -150px;
+}
+figcaption{
+    background-color: rgba(255 , 255 , 255 , 0.8);
+    font-size: 1,875rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding-left: 20px;
+    font-size:15px ;
+    font-weight: bold;
+}
+.open{
+    background-color: #005773
+}
+.new{
+    background-color: rgb(227, 227, 227);
+}
+.close{
+    display: flex;
+    justify-content: space-around;
+    background-color: #e9d8a6;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.close li{
+    
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+@media (max-width:400px) {
+    .list{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #e9d8a6;
+    }
+    .list1,.list2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .list1{
+        margin-top: 80px;
+        
+    }
+    .list1 li , .list2 li{
+        padding: 10px;
+        list-style: none;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: red;
+    }
+    .container{
+       
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 70px;
+    }
+    .container img{
+        margin-top: 18px;
+        max-width: 130px;
+        max-height: 50px;
+    }
+    .container p{
+        font-size:20px;
+        font-weight: bold;
+        margin-top: 28px;
+    }
+    section{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1rem;
+        padding-bottom: 20px;
+    }
+    section ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .close{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #e9d8a6;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .ourMission{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:lightgray;
+        padding: 10px 0; 
+    }
+    .ourMission h1{
+        margin: 20px;
+    }
+    .our{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .our img{
+        max-width: 200px;
+    }
+    .our p{
+        margin-left: 20px;
+    }
+    section h2{
+        padding-top: 20px;
+        font-size: 2rem;
+    }
+    .side{
+        background-color: #ca6702;
+    }
+    .side img{
+        width: 100%;
+    }
+}
